@@ -1,0 +1,24 @@
+{
+  "name": "is-gzip",
+  "version": "0.1.0",
+  "description": "Check if a Buffer/Uint8Array is a GZIP file",
+  "license": "MIT",
+  "repository": "kevva/is-gzip",
+  "main": "browser.js",
+  "ignore": [
+    ".*",
+    "component.json",
+    "LICENSE.md",
+    "package.json",
+    "test"
+  ],
+  "keywords": [
+    "archive",
+    "buffer",
+    "check",
+    "detect",
+    "gzip",
+    "type",
+    "uint8array"
+  ]
+}
