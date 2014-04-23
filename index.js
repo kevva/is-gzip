@@ -8,7 +8,7 @@
  */
 
 module.exports = function (buf) {
-    if (!buf || buf.length < 4) {
+    if (!buf || buf.length < 3) {
         return false;
     }
 
