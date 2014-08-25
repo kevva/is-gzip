@@ -4,29 +4,20 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save is-gzip
-```
-
-```bash
-$ component install kevva/is-gzip
-```
-
-```bash
-$ bower install --save is-gzip
 ```
 
 ## Usage
 
 ```js
-var fs = require('fs');
 var isGzip = require('is-gzip');
-var buf = fs.readFileSync('foo.tar.gz');
+var read = require('fs').readFileSync;
 
-isGzip(buf);
+isGzip(read('foo.tar.gz'));
 // => true
 ```
 
 ## License
 
-MIT © [Kevin Mårtensson](https://github.com/kevva)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Kevin Mårtensson](https://github.com/kevva)
