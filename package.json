@@ -1,6 +1,6 @@
 {
   "name": "is-gzip",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Check if a Buffer/Uint8Array is a GZIP file",
   "license": "MIT",
   "repository": "kevva/is-gzip",
