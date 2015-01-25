@@ -28,8 +28,7 @@
     "uint8array"
   ],
   "devDependencies": {
-    "ava": "0.0.4",
-    "mocha": "^1.18.2",
+    "ava": "^0.0.4",
     "read-chunk": "^1.0.0"
   }
 }
