@@ -2,11 +2,13 @@
 
 > Check if a Buffer/Uint8Array is a GZIP file
 
+
 ## Install
 
-```sh
+```
 $ npm install --save is-gzip
 ```
+
 
 ## Usage
 
@@ -17,6 +19,7 @@ var read = require('fs').readFileSync;
 isGzip(read('foo.tar.gz'));
 //=> true
 ```
+
 
 ## License
 
