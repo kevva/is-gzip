@@ -13,8 +13,8 @@ $ npm install --save is-gzip
 ## Usage
 
 ```js
-var isGzip = require('is-gzip');
 var read = require('fs').readFileSync;
+var isGzip = require('is-gzip');
 
 isGzip(read('foo.tar.gz'));
 //=> true
